@@ -11,9 +11,10 @@ My project will be for a pomodoro timer website. A pomodoro timer is 25 minutes 
 ### Features
 - __Login:__ Users can login or logoff. If a user is logged in, they have access to a history page.
 - __Pomodoro Timer:__ An adjustable timer. The default is a 25 minute timer. The timer can be used without logging in, but if the user is logged in, they can add tags to the block.
-- __Break Timer:__ A timer that does not count towards the day's total. Shows up after a pomodoro timer has ended. Set to five minutes as default, unless the user has just completed thier 4th/8th/12th/etc. pomodoro block of that day, where it will be set to 15 minutes.
+  - __Break Timer:__ A timer that does not count towards the day's total. Shows up after a pomodoro timer has ended. Set to five minutes as default, unless the user has just completed thier 4th/8th/12th/etc. pomodoro block of that day, where it will be set to 15 minutes.
 - __History:__ Logged in users can track how much time they have spent focusing by day. A graph of the current month will be the default view, but users can choose to see past months, as well.
 - __Tags:__ Users can add tags when they start a pomodoro timer to label what they will be working on. The user can filter the history page to see how much time they've spent working on a specific tag.
+- __Goal:__ Logged in users can set a daily goal. The website will indicate if the current day's goal has been completed or not, and the history graph will show if the goal for past days had been met.
 ### Technologies
 - Java
 - SQL
